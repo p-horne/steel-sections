@@ -17,4 +17,4 @@ dependencies = [
 ]
 
 [tool.setuptools.package-data]
-my_steel_sections = ["data/*.csv"]
+steelsections = ["data/*.csv"]
