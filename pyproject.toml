@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steelsections"
+version = "1.0.0"
+authors = [
+  { name="Paul Horne" },
+]
+description = "A simple package for structural steel sections and properties"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "sectionproperties"
+]
+
+[tool.setuptools.package-data]
+my_steel_sections = ["data/*.csv"]
