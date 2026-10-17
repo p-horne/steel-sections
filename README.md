@@ -33,6 +33,9 @@ beam1 = ss.nz.get_geometry("UB 610x229x140")
 
 # Fetch a UK beam in millimeters (no root radius or corner rounding sections)
 beam2 = ss.uk.get_geometry("UB 457x191x98", units="mm")
+
+# List of available sections of certain shape
+ss.nz.get_section_list(['I', 'RHS'])
 ```
 
 
