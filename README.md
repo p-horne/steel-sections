@@ -7,6 +7,7 @@ Rather than using static databasess of section properties from different countri
 Supported shapes are I-sections (UB, UC, etc), Parallel Flange Channels (PFC), Square/Rectangular Hollow Sections (SHS/RHS), Circular Hollow Sections (CHS). Elliptical, crtuciform and other more unusual and compex shapes are not currently supported.
 
 The package includes in-built databases for UB and UC sections available in New Zealand and the United Kingdom.
+Note SHS-HF and RHS-HF mean hot formed. The corner radius differs for cold and hot formed sections.
 
 
 ## Usage
